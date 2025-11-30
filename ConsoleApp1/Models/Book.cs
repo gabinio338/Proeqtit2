@@ -4,7 +4,7 @@
     public string Author { get; private set; }
     public int Year { get; private set; }
 
-    // კონსტრუქტორი - ქმნის წიგნის ობიექტს
+    // კონსტრუქტორი
     public Book(string title, string author, int year)
     {
         Title = title;
