@@ -1,8 +1,3 @@
-﻿public class Program
-{
-    static void Main()
-    {
-        ConsoleUI ui = new ConsoleUI();
-        ui.Start();
-    }
-}
+﻿ConsoleUI ui = new ConsoleUI();
+ui.Start();
+
