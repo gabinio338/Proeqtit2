@@ -9,7 +9,7 @@ public class BookManager
     public void AddBook(Book book)
     {
         books.Add(book);
-        Console.WriteLine("The book was successfully added!\n");
+        Console.WriteLine("The book was successfully added!");
     }
 
     // ყველა წიგნის ნახვა
@@ -17,7 +17,7 @@ public class BookManager
     {
         if (books.Count == 0)
         {
-            Console.WriteLine("List is empty.\n");
+            Console.WriteLine("List is empty.");
             return;
         }
 
@@ -35,8 +35,8 @@ public class BookManager
         var found = books.Find(b => b.Title.ToLower() == title.ToLower());
 
         if (found == null)
-            Console.WriteLine("No such book was found..\n");
+            Console.WriteLine("No such book was found");
         else
-            Console.WriteLine("Found: " + found.ToString() + "\n");
+            Console.WriteLine("Found: " + found.ToString()");
     }
 }
