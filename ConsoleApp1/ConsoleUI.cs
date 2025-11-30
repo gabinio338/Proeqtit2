@@ -26,7 +26,7 @@ public class ConsoleUI
                 case "3": SearchBookUI();
                     break;
                 case "4": return;
-                default: Console.WriteLine("Wrong choise.\n");
+                default: Console.WriteLine("Wrong choise.");
                     break;
             }
         }
@@ -44,7 +44,7 @@ public class ConsoleUI
 
         if (!int.TryParse(Console.ReadLine(), out int year))
         {
-            Console.WriteLine("The year must be a number!\n");
+            Console.WriteLine("The year must be a number!");
             return;
         }
 
